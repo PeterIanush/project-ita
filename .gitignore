@@ -1,0 +1,9 @@
+# Local .terraform directories
+**/.terraform/*
+terraform/aws/.terraform/**/**/*
+
+# .tfstate files
+terraform/aws/*.tfstate
+terraform/aws/*.tfstate.i*
+# Other
+bash/get-pip.py
