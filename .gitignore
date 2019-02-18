@@ -7,3 +7,5 @@ terraform/aws/*.tfstate
 terraform/aws/*.tfstate.i*
 # Other
 bash/get-pip.py
+aws-peter.pem
+aws-peter.ppk
