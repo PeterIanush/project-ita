@@ -30,7 +30,7 @@ resource "aws_instance" "jenkins" {
         "sudo apt-get install -y oracle-java8-installer",
         "wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -",
         "sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'",
-        "echo ' update'",
+        "sudo apt-get install -qy maven",
         "sudo apt -qy update",
         "echo 'install jenkins'",
         "sudo apt install -qy jenkins",
