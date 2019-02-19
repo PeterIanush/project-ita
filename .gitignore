@@ -9,3 +9,4 @@ terraform/aws/*.tfstate.i*
 bash/get-pip.py
 aws-peter.pem
 aws-peter.ppk
+con.json
