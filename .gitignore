@@ -10,3 +10,4 @@ bash/get-pip.py
 aws-peter.pem
 aws-peter.ppk
 con.json
+ssh_key_private.pub

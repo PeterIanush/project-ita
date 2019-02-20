@@ -1,5 +1,0 @@
-region          = "europe-west2"
-gcp_project     = "even-crossing-229014"
-credentials     = "${file("${./var/credentials}")}"
-name            = "terraform"
-subnet_cidr     = "0.0.0.0/0"
